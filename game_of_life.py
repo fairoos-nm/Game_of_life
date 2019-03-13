@@ -44,11 +44,8 @@ def set_rule(board, neighbour):
 
     return board
 
-def 
-
-
 def display(board):
-    size = size(baord)
+    size = len(board)
     for row in range(size):
         for col in range(size):
             if cell_alive_check(board[row][col]):
